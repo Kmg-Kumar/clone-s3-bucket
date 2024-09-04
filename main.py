@@ -79,5 +79,3 @@ while True:
         response = s3.list_objects_v2(Bucket=bucket_name, Prefix=folder_prefix, ContinuationToken=continuation_token)
     else:
         break
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
